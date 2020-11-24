@@ -1,0 +1,44 @@
+$Palette: (
+  GrayScale: (
+    Title-Active: #14142B,
+    Body: #4E4B66,
+    Label: #6E7191,
+    Placeholder: #A0A3BD,
+    Line: #D6D8E7,
+    Input-Background: #EFF0F6,
+    Background: #F7F7FC,
+    Off-White: #FCFCFC
+  ),
+  Colors: (
+    Primary: (
+      Default: #5F2EEA,
+      Dark: #2A00A2,
+      Light: #DED3FF,
+    ),
+    Secondary: (
+      Default:  #1CC8EE,
+      Dark: #0096B7,
+      Light: #D5F7FF,
+    ),
+    Error: (
+      Default:  #ED2E7E,
+      Dark: #C30052,
+      Light: #FFF2F7,
+    ),
+    Success: (
+      Default:  #00BA88,
+      Dark: #00966D,
+      Light: #F3FDFA,
+    ),
+    Warning: (
+      Default:  #F4B740,
+      Dark: #A26B00,
+      Light: #FFF0D4,
+    ),
+    Gradient: (
+      Primary: linear-gradient(114.44deg, #7433FF 0%, #FFA3FD 100%),
+      Secondary: linear-gradient(114.44deg, #624AF2 0%, #50DDC3 100%),
+      Accent: linear-gradient(114.44deg, #EB0055 0%, #FFFA80 100%)
+    )
+  ),
+);
