@@ -1,63 +1,8 @@
-@import url(
-  'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'
-);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 * {
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-
-$Fonts: (
-  Desktop: (
-    Regular: (
-      Large: 400 64px 'Poppins',
-      Medium: 400 48px 'Poppins',
-      Small: 400 32px 'Poppins',
-    ),
-    
-    Bold: (
-      Large: 700 64px 'Poppins',
-      Medium: 700 48px 'Poppins',
-      Small: 700 32px 'Poppins',
-    ),
-
-    Text: (
-      Large: 400 24px 'Poppins',
-      Medium: 400 18px 'Poppins',
-      Small: 400 16px 'Poppins',
-      X-Small: 400 14px 'Poppins',
-    ),
-    
-    Link: (
-      Large: 600 24px 'Poppins',
-      Medium: 600 18px 'Poppins',
-      Small: 600 16px 'Poppins',
-      X-Small: 600 14px 'Poppins',
-    )
-  ),
-  Mobile: (
-    Regular: (
-      Large: 400 48px 'Poppins',
-      Medium: 400 32px 'Poppins',
-      Small: 400 24px 'Poppins',
-    ),
-    Bold: (
-      Large: 700 48px 'Poppins',
-      Medium: 700 32px 'Poppins',
-      Small: 700 24px 'Poppins',
-    ),
-    Text: (
-      Large: 400 20px 'Poppins',
-      Medium: 400 16px 'Poppins',
-      Small: 400 14px 'Poppins',
-      X-Small: 400 13px 'Poppins',
-    ),
-    Link: (
-      Large: 600 20px 'Poppins',
-      Medium: 600 16px 'Poppins',
-      Small: 600 14px 'Poppins',
-      X-Small: 600 13px 'Poppins',
-    )
-  )
-);

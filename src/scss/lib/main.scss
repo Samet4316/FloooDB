@@ -1,3 +1,5 @@
+@import 'normalize';
+
 /// https://css-tricks.com/snippets/sass/deep-getset-maps/
 /// Map deep get
 /// @author Hugo Giraudel
@@ -12,3 +14,5 @@
 
   @return $map;
 }
+
+@import 'base';
